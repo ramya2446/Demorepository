@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite parallel="none" name="Failed suite [Suite]">
+  <test parallel="methods" name="Test(failed)">
+    <groups>
+      <run>
+        <include name="group1"/>
+      </run>
+    </groups>
+    <classes>
+      <class name="Mainclass.Main">
+        <methods>
+          <include name="addtocart"/>
+          <include name="selectproduct"/>
+          <include name="log"/>
+          <include name="signout"/>
+          <include name="viewcart"/>
+          <include name="checkbox"/>
+          <include name="removeitem"/>
+        </methods>
+      </class> <!-- Mainclass.Main -->
+    </classes>
+  </test> <!-- Test(failed) -->
+</suite> <!-- Failed suite [Suite] -->
