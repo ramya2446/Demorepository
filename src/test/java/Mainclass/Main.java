@@ -72,7 +72,7 @@ public class Main extends Baseclass{
 				 @Test(priority=2,groups= {"group1","group2"})
 				 public void title() throws Exception{
 					 
-					 Thread.sleep(10000);
+					 Thread.sleep(15000);
 					 driver.navigate().refresh();
 					 String actual_title = driver.getTitle();
 					 String expected_title ="Modern Lighting, Ceiling Fans, Furniture & Home Decor | Lumens.com";
